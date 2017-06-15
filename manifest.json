@@ -12,6 +12,12 @@
         "default_title" : "Workflow",
         "default_popup" : "index.html"
     },
+
+    "background": {
+    "page": "background.html",
+    "persistent": true
+    },
+
     "content_scripts" : [{
             "js" : ["js/index.js"],
             "matches" : ["*://*/*"]
